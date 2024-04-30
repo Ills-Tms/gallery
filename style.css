@@ -1,0 +1,12 @@
+#container {
+  display: inline-block;
+}
+#bigImgDiv {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+#targetImg {
+  width: 100%;
+}
