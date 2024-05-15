@@ -10,6 +10,11 @@ for (const kep of kepek) {
   img.width = "200";
   container.appendChild(img);
   img.addEventListener("click", function () {
+    targetImg.classList.remove('hidden')
     targetImg.src = this.src;
   });
 }
+
+targetImg.addEventListener('click',()=>{
+  targetImg.classList.add('hidden')
+})

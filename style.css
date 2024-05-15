@@ -1,3 +1,9 @@
+body{
+  background-color: rgb(49, 49, 68);
+}
+h1{
+  color: rgb(139, 141, 141);
+}
 #container {
   display: inline-block;
 }
@@ -9,4 +15,9 @@
 }
 #targetImg {
   width: 100%;
+}
+
+.hidden{
+  visibility: hidden;
+
 }
