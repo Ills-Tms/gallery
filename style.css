@@ -8,16 +8,18 @@ h1{
   display: inline-block;
 }
 #bigImgDiv {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
   border: 1px solid black;
-  width: 400px;
-  height: 400px;
-  float: right;
 }
 #targetImg {
   width: 100%;
 }
 
-.hidden{
-  visibility: hidden;
+.hidden {
+  display:none;
 
 }
